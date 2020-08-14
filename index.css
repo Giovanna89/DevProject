@@ -1,0 +1,115 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow', sans-serif;
+    /* box-sizing: border-box; */
+}
+
+
+.nav {
+    list-style: none;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+.nav > li {
+    display: inline-block;
+    padding-right: 50px;
+    cursor: pointer;
+}
+
+.nav > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav > li > a:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+
+#banner {
+    background-image: url(../images/green-pine-tree-leaves-192136.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 600px;
+    width: 100%;
+}
+#banner .content {
+    color: white;
+    text-align: center;
+}
+
+#banner .content h1 {
+    border: 3px solid white;
+    position: relative;
+    top: 95px;
+    width: 600px;
+    margin: 15px auto;
+    padding: 15px;
+  }
+
+  .small {
+      font-style: italic;
+      font-size: 14px;
+  }
+
+
+#welcome {
+    background-color: white;
+    padding: 10px 0;
+    height: auto;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.headline {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Great Vibes', cursive;
+}
+#services {
+    background-image: url(../images/pexels-thiago-japyassu-3968102.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    padding: 10px;
+    opacity: 1em;
+  }
+
+#contact {
+    background-color: yellow;
+    text-align: center;
+    padding: 10px 0;
+    height: 300px;
+    width: 100%;
+}
+
+footer {
+    background-color: black;
+    color: white; 
+    text-align: center;
+    padding: 10px 0;
+    height: 300px;
+    width: 100%;
+}
+
+
+#welcome img {
+    height: 300px;
+    float: left;
+    margin: 0px 15px 15px 0px;
+    padding: 0;
+    border: 1px solid black;
+}
